@@ -53,9 +53,6 @@ h1 {
   font-weight: 700;
 }
 
-h1.article {
-}
-
 h2 {
   font-size: 1.2em;
   font-weight: 400;
@@ -96,11 +93,15 @@ hr {
 /* page header */
 
 .header {
-  margin: 3em 0 5em;
+  margin: 3em 0 4em;
+}
+
+.header-image {
+  text-align: center;
 }
 
 .header h1 {
-  font-size: 2.6em;
+  font-size: 2.0em;
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -111,10 +112,7 @@ hr {
   color: #34495E;
 }
 
-.header .author {
-  font-family: 'Merriweather', serif;
-  font-variant: small-caps;
-  text-transform: lowercase;
+.article .author {
   text-rendering: auto;
   text-align: center;
   font-weight: 400;
@@ -122,27 +120,10 @@ hr {
 }
 
 .header .description {
-  font-size: 1.1em;
+  font-size: 1.0em;
   text-align: center;
   margin-top: -0.3em;
   color: #444;
-}
-
-body.article-detail > header h1 {
-  font-size: 2.5em;
-  font-weight: 400;
-  margin-bottom: -0.2em;
-  
-  text-transform: none;
-  font-style: normal;
-  font-size: 1.4em;
-  font-weight: 500;
-  line-height: 1.43;
-  margin-bottom: 1.35em;
-}
-
-body.article-detail > header {
-  margin-bottom: 3em;
 }
 
 /* page footer */
@@ -239,7 +220,6 @@ footer .copy {
 }
 
 .more, .date {
-  font-family: 'Merriweather', serif;
   font-variant: small-caps;
   text-transform: lowercase;
   font-weight: 400;
