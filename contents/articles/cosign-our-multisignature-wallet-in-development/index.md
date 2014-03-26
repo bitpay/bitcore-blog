@@ -100,7 +100,7 @@ By using web technologies, we're able to make an app that can run pretty much an
 One of the neatest new pieces of technology to come to the web is [Web RTC](http://www.webrtc.org/), which allows (almost) p2p connections in the browser.
 The only central element of this is a server that exists solely to facilitate the creation of the p2p connection, after which the central server is no longer needed.
 
-The ultimate goal of Cosign is to have a genuinely p2p app with no need whatsoever for a central server, but that is not yet possible from the browser, so we will get as close to that as possible.
+The ultimate goal of Cosign is to have a genuinely p2p app with no need whatsoever for a central server, but that is not yet possible from the browser, so we will get as close to that as we can.
 
 ## HTML 5 Local Storage
 
