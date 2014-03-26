@@ -102,7 +102,7 @@ The only central element of this is a server that exists solely to facilitate th
 
 The ultimate goal of Cosign is to have a genuinely p2p app with no need whatsoever for a central server, but that is not yet possible from the browser, so we will get as close to that as possible.
 
-## HTML 5 local storage
+## HTML 5 Local Storage
 
 Running apps in the browser used to be far more limited, but today, HTML 5 local storage allows apps to keep significant amounts of data stored locally so that no central server is required to store anything.
 The public wallet (containing the public keys) is shared amongst all cosigners, as are other critical pieces of information such as unspent transaction outputs.
@@ -111,7 +111,7 @@ Between Web RTC and HTML 5 local storage, it is actually possible to have a web 
 
 ## Insight and SPV
 
-Cosign is developed by the same people that developed insight, a powerful, open-source blockchain API and client.
+Cosign is developed by the same people that developed <a href="http://insight.bitcore.io/">Insight</a>, a powerful, open-source blockchain API and client.
 Cosign uses insight to find unspent transaction outputs and broadcast transactions to the bitcoin network.
 Long-term, however, we believe it will be possible to implement [SPV](https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification) in the browser, where the only need for a server will be to bridge the Web RTC communication protocol with the real bitcoin p2p protocol.
 In the meantime, running insight locally means there is no central server except the p2p facilitator.
