@@ -66,7 +66,7 @@ Addresses formed from these master keys can be seen in the addresses list, just 
 
 The transactions page is where the magic happens.
 This page looks almost the same as a regular transactions page, with one key difference: When a cosigner sends bitcoins, it is regarded as "partially signed," and shows up on the screens of the other cosigners.
-The other cosigners can either to choose to sign or to ignore the transaction.
+The other cosigners can either choose to sign or to ignore the transaction.
 If enough cosigners sign the transaction (say, three, in the case of a 3-of-5 multisig wallet), the transaction is fully signed and automatically broadcast to the bitcoin network.
 
 ![4](/blog/images/cosign-4-send.jpg)
@@ -113,7 +113,7 @@ Between Web RTC and HTML 5 local storage, it is actually possible to have a web 
 
 Cosign is developed by the same people that developed insight, a powerful, open-source blockchain API and client.
 Cosign uses insight to find unspent transaction outputs and broadcast transactions to the bitcoin network.
-Long-term, however, we believe it will be possible to implement SPV in the browser, where the only need for a server will be to to bridge the Web RTC communication protocol with the real bitcoin p2p protocol.
+Long-term, however, we believe it will be possible to implement SPV in the browser, where the only need for a server will be to bridge the Web RTC communication protocol with the real bitcoin p2p protocol.
 In the meantime, running insight locally means there is no central server except the p2p facilitator.
 
 ## Conclusion
