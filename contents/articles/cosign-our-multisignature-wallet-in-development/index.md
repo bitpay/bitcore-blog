@@ -10,7 +10,7 @@ Countless individuals and companies have lost their bitcoins due to compromised 
 Multisignature transactions offer a solution to this problem.
 They just need to be user-friendly.
 
-That is the idea behind Cosign, a multisignature wallet being developed by the bitcore team.
+That is the idea behind Cosign, a multisignature wallet being developed by the Bitcore team.
 It should be just as easy to spend multisignature bitcoins as regular ("single signature") bitcoins, except other people (or computers) have to sign the transactions before they are valid.
 
 The way this works is that when someone from a, say, 3-of-5 multisignature wallet wishes to spend bitcoins, they can spend the bitcoins just like normal.
