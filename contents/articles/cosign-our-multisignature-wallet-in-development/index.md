@@ -87,7 +87,7 @@ If you've ever considered how best to handle multisignature transactions, you've
 Every time you generate a new, random private key, you have to share the corresponding public key, which is burdensome.
 Either that, or you re-use the same addresses over and over again, which is terrible for privacy.
 
-HD wallets as described in BIP 32 solve this problem by allowing one master extended private key to generate, deterministically, infinitely many private/public key pairs.
+HD wallets as described in [BIP 32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) solve this problem by allowing one master extended private key to generate, deterministically, infinitely many private/public key pairs.
 Importantly, extended public keys can be derived from the master extended public key.
 This means you share one extended public key with your cosigners, and there is no need to share more public keys after that.
 All of the cosigners have every address that will ever be generated right from the start.
@@ -97,7 +97,7 @@ This greatly increases the ease of sharing public keys.
 
 Cosign is a web application that is run locally.
 By using web technologies, we're able to make an app that can run pretty much anywhere, and can be improved and audited by a huge number of developers.
-One of the neatest new pieces of technology to come to the web is Web RTC, which allows (almost) p2p connections in the browser.
+One of the neatest new pieces of technology to come to the web is [Web RTC](http://www.webrtc.org/), which allows (almost) p2p connections in the browser.
 The only central element of this is a server that exists solely to facilitate the creation of the p2p connection, after which the central server is no longer needed.
 
 The ultimate goal of Cosign is to have a genuinely p2p app with no need whatsoever for a central server, but that is not yet possible from the browser, so we will get as close to that as possible.
@@ -113,7 +113,7 @@ Between Web RTC and HTML 5 local storage, it is actually possible to have a web 
 
 Cosign is developed by the same people that developed insight, a powerful, open-source blockchain API and client.
 Cosign uses insight to find unspent transaction outputs and broadcast transactions to the bitcoin network.
-Long-term, however, we believe it will be possible to implement SPV in the browser, where the only need for a server will be to bridge the Web RTC communication protocol with the real bitcoin p2p protocol.
+Long-term, however, we believe it will be possible to implement [SPV](https://en.bitcoin.it/wiki/Scalability#Simplified_payment_verification) in the browser, where the only need for a server will be to bridge the Web RTC communication protocol with the real bitcoin p2p protocol.
 In the meantime, running insight locally means there is no central server except the p2p facilitator.
 
 ## Conclusion
