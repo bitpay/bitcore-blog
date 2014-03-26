@@ -1,7 +1,7 @@
 ---
 title: "How to Contribute to Bitcore"
 author: manu
-date: 2014-03-27
+date: 2014-03-26
 template: article.jade
 ---
 
@@ -51,7 +51,7 @@ changes while you were working:
 ```
 git pull --rebase bitpay master
 ```
-(You may need to solve any conflicts from the rebase at this point)
+(You may need to solve any conflicts from the rebase at this point.)
 
 A final and important step is to run the tests and check they all pass.
 This is done by running `mocha` in the project's directory. You'll also 
@@ -79,7 +79,7 @@ check for general code correctness. If everything is OK, we'll
 merge your pull request and your code will be part of bitcore.
 
 If you have any questions feel free to post them to
-[github.com/bitpay/bitcore/issues](https://github.com/bitpay/bitcore/issues)
+[github.com/bitpay/bitcore/issues](https://github.com/bitpay/bitcore/issues).
 
 Thanks for your time and code!
 
