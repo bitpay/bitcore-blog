@@ -1,18 +1,18 @@
 ---
-title: "How to contribute to bitcore"
+title: "How to Contribute to Bitcore"
 author: manu
 date: 2014-03-27
 template: article.jade
 ---
 
 Are you a developer looking to learn more about bitcoin? 
-bitcore is a great opportunity to do so, and give back to
-the community. At bitpay we encourage any developer to read the source 
+Bitcore is a great opportunity to do so, and give back to
+the community. At BitPay we encourage any developer to read the source 
 code and help us improve it by fixing bugs, implementing
 new exciting features, and testing existing code. 
 
 Pull requests are the standard mechanism by which you contribute code to open-source projects.
-To do so, start by forking our repo on github. Go to 
+To do so, start by forking our repo on GitHub. Go to 
 [github.com/bitpay/bitcore](https://github.com/bitpay/bitcore)
 and click the 'Fork' button.  You'll get your own fork of the repository which will look something like this:
 ```
@@ -67,7 +67,7 @@ git push origin fix/some-bug
 ```
 
 Finally go to [github.com/bitcore/bitpay](https://github.com/bitcore/bitpay) in your
-web browser and issue a new pull request. Github normally recognizes you have pending
+web browser and issue a new pull request. GitHub normally recognizes you have pending
 changes in a new branch and will suggest creating the pull request. If it doesn't, you can
 always go to [github.com/bitpay/bitcore/compare](https://github.com/bitpay/bitcore/compare) and
 choose the correct forks and branches. 
@@ -81,6 +81,6 @@ merge your pull request and your code will be part of bitcore.
 If you have any questions feel free to post them to
 [github.com/bitpay/bitcore/issues](https://github.com/bitpay/bitcore/issues)
 
-##Thanks for your time and code!
+Thanks for your time and code!
 
 
