@@ -5,6 +5,7 @@
     "owner": "Bitcore Team",
     "description": "A pure, powerful blog for your daily reading."
   },
+  "baseUrl": "/blog/",
   "plugins": [
     "./plugins/paginator.coffee"
   ],
