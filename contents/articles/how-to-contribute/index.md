@@ -66,7 +66,7 @@ git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
 
-Finally go to [github.com/bitcore/bitpay](https://github.com/bitcore/bitpay) in your
+Finally go to [github.com/bitpay/bitcore](https://github.com/bitpay/bitcore) in your
 web browser and issue a new pull request. GitHub normally recognizes you have pending
 changes in a new branch and will suggest creating the pull request. If it doesn't, you can
 always go to [github.com/bitpay/bitcore/compare](https://github.com/bitpay/bitcore/compare) and
