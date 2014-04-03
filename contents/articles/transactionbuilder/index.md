@@ -133,7 +133,7 @@ to set the signature types, which defaults to *Transaction.SIGHASH_ALL*.
 
 
 It is expected that the set of private `keys` will the match the output's 
-`ScriptPubKey` to unlock them. After `.sign(keys)` is called, `.isFullySigned()` 
+ScriptPubKey to unlock them. After `.sign(keys)` is called, `.isFullySigned()` 
 can be call to check if all inputs are properly signed. This schema work with all 
 stardart type of transactions including Multisig as demostrated later.
 
