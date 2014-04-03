@@ -17,7 +17,7 @@ power of Bitcoin.
 
 
 ## Bitcoin Transactions Introduction
-All Bitcoin transactions have inputs and outputs. The inputs are the sources of the coins the transactions is spending (i.e. transfering to the outputs). The sum of all inputs' values  must be equal or greater than the sum of all outputs' values. The difference, if existent, is the fee assigned by the transaction creator to the miner. This fee will be collected by miner that includes the transaction on the Bitcoin blockchain.
+All Bitcoin transactions have inputs and outputs. The inputs are the sources of the coins the transactions are spending (i.e. transfering to the outputs). The sum of all inputs' values  must be equal or greater than the sum of all outputs' values. The difference, if existent, is the fee assigned by the transaction creator to the miner. This fee will be collected by miner that includes the transaction on the Bitcoin blockchain.
 
 Once the transaction is accepted on the network, the outputs are ready to become
 inputs for future transactions. Unsurprisingly, each output can only be spent once, 
