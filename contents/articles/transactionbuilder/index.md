@@ -24,7 +24,7 @@ inputs for future transactions. Unsurprisingly, each output can only be spent on
 therefore a common name for the available outputs to became inputs is *unspent outputs*.
 
 In order to spend an *unspent output* in a transaction, proof of ownership must be 
-provided. Bitcoin implemented this security mechanisim by adding a script to all 
+provided. Bitcoin implements this security mechanisim by adding a script to all 
 outputs (called ScriptPubKey). This script must fulfilled to spend the associated 
 output coins. Each time an unpent output has been spent in a transaction input, 
 the input **must** provide the right arguments to the unspent's script (those 
