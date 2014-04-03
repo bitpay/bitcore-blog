@@ -7,26 +7,26 @@ template: article.jade
 During the last few days we have been working on a new interface to generate
 Bitcoin transactions. We wanted to support all standard types transactions 
 (pay to pubkeyhash, pay to pubkey, pay to script and multisig)  while providing 
-an easy to use API. This is how we arrived to the 
+an easy to use API. This is how we arrived at the 
 [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern) 
 and *TransactionBuilder* was born.
 
 
-Hopefully *TransactionBuilder* will help Javascript developers on unleash the 
+Hopefully *TransactionBuilder* will help Javascript developers to unleash the 
 power of Bitcoin.
 
 
 ## Bitcoin Transactions Introduction
-All Bitcoin transactions have inputs and outputs. The inputs are the sources of the coins the transactions is spending (i.e. transfering to the outputs). The sum of all inputs' values  must be equal or greater than the sum of all outputs' values. The difference, if existant, is the fee assigned by the transaction creator to the miner. This fee will be collected by miner that includes the transaction on the Bitcoin blockchain.
+All Bitcoin transactions have inputs and outputs. The inputs are the sources of the coins the transactions is spending (i.e. transfering to the outputs). The sum of all inputs' values  must be equal or greater than the sum of all outputs' values. The difference, if existent, is the fee assigned by the transaction creator to the miner. This fee will be collected by miner that includes the transaction on the Bitcoin blockchain.
 
 Once the transaction is accepted on the network, the outputs are ready to become
 inputs for future transactions. Unsurprisingly, each output can only be spent once, 
 therefore a common name for the available outputs to became inputs is *unspent outputs*.
 
 In order to spend an *unspent output* in a transaction, proof of ownership must be 
-provided. Bitcoin implement this security mechanisim by adding a script to all 
-outputs (called ScriptPubKey). This script must be fulfill to spend the associated 
-output coins. Each time an unpent output is been spended in a transaction input, 
+provided. Bitcoin implemented this security mechanisim by adding a script to all 
+outputs (called ScriptPubKey). This script must fulfilled to spend the associated 
+output coins. Each time an unpent output has been spent in a transaction input, 
 the input **must** provide the right arguments to the unspent's script (those 
 arguments are a script theirself, which is called ScriptSig).  Failure to do 
 this, will cause the rejection of the transaction by the network. ScriptPubKey 
