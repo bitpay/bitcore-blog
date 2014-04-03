@@ -63,7 +63,7 @@ hash of a script. In order to spend the transaction, the corresponding
 
 ### TransactionBuilder
 
-Without further do, here are some examples of using the new interfase
+Without further do, here are some examples of using the new interface
 for creating transactions:
 
 Transaction generation and signing
@@ -81,7 +81,7 @@ Transaction generation and signing
   broadcast(tx.serialize().toString('hex'));
 ```
 In the example, `utxos` are the available unspent outputs for the 
-transactions. The list of unspend output for a bitcoin address can 
+transactions. The list of unspent output for a bitcoin address can 
 be obtained from Bitcoin blockchain APIs, like [blockchain.info](http://blockchain.info), 
 [biteasy.com](http://biteasy.com), [blockr.io](http://blockr.io), or our 
 own open-sourced [insigh-api](https://github.com/bitpay/insight-api). 
