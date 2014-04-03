@@ -30,7 +30,7 @@ output coins. Each time an unpent output has been spent in a transaction input,
 the input **must** provide the right arguments to the unspent's script (those 
 arguments are a script theirself, which is called ScriptSig).  Failure to do 
 this, will cause the rejection of the transaction by the network. ScriptPubKey 
-and ScriptSig can be thought as a lock and a key, respectivelly.
+and ScriptSig can be thought as a lock and a key, respectively.
 
 ## Standard Transactions
 
