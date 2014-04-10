@@ -11,7 +11,7 @@ and one that we've been working on since we started with this open source initia
 That is achieving **100% compatibility with test data from Bitcoin
 Core**. It was hard work, but we think it's worth it: we are now sure 
 bitcore handles correctly all the edge cases and tricky input data
-the same way that bitcoind does. 
+the same way that bitcoind does (or at least those that have test data for them). 
 
 The current version of bitcore has **2868** tests passing both in node
 and in modern browsers (save for a few tests that make no sense for
