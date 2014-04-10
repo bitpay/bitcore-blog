@@ -20,7 +20,7 @@ also looking to expand the test coverage, and welcome any contributions
 to this important task. If you've thought about collaborating with 
 bitcore but didn't know where to start, writing tests is a good way
 to internalize with the source code, learn about bitcoin, and improve
-the project a lot. You can also follow <a href="how-to-contribute">our collaboration guide</a> if
+the project a lot. You can also follow <a href="/blog/articles/how-to-contribute/">our collaboration guide</a> if
 you are new to open-source contributions.
 
 While this milestone is important (test data compatibility with Bitcoin 
@@ -29,7 +29,7 @@ to complete a more ambitious goal: achieving 100% code coverage
 for all our code. A good tool to measure that is <a href="http://gotwarlost.github.io/istanbul/">
 istanbul</a>. Here's bitcore's istanbul report:
 
-<img src="../../images/bitcore-istanbul.png"> </img>
+<img src="/blog/images/bitcore-istanbul.png"> </img>
 
 As you can see, there's some work to be done, but we hope you'll help us
 get there! Bitcore is a community effort and adding tests will greatly improve
