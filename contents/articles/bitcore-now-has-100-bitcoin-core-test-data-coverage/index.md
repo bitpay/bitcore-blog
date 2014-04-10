@@ -35,7 +35,6 @@ As you can see, there's some work to be done, but we hope you'll help us
 get there! Bitcore is a community effort and adding tests will greatly improve
 the quality of the code.
 
-Thanks for reading!
 
 
 
